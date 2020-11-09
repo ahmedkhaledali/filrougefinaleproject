@@ -1,0 +1,258 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/*begin logo*/
+.logo {
+  width: auto;
+  height: 50px;
+}
+/*end logo*/
+
+/*begin icon navbar*/
+ion-icon {
+  width: 40px;
+  height: 40px;
+  color: aliceblue;
+}
+/*end icon navbar*/
+.navbar {
+ 
+ background-color: #8EC5FC; 
+background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
+
+}
+/*begin dropdown*/
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+/*end dropdown*/
+
+/*begin text image*/
+.caption {
+  position: absolute;
+  top: 10%;
+  right: 300px;
+  width: 100%;
+  color: #ecf0f1;
+  font-family: 'Yeseva One', cursive;
+  font-size: 100px;
+  font-weight: bolder;
+}
+.caption1 {
+  position: absolute;
+  top: 25%;
+  left: 150px;
+  width: 100%;
+  color: #f5cd79;
+  font-family: 'Merienda One', cursive;
+  font-size: 30px;
+  font-weight: Medium 300
+  ;
+}
+/*end text image*/
+
+/*begin image*/
+.img {
+  width: 100%;
+  height: 500px;
+}
+/*end image*/
+
+.H-F {
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.T-HF {
+  font-family: Alegreya Sans;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.Acc-HF {
+  font-family: Alegreya Sans;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.temoi {
+  font-family: Alegreya Sans;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.temoignage {
+  font-family: "Spectral SC", serif;
+  font-size: 20px;
+  color: slategray;
+  font-weight: bolder;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.container1 {
+  background-color: #353b48;
+}
+.logo2 {
+  width: auto;
+  height: 80px;
+  padding: 20px;
+}
+.proptext {
+  text-align: center;
+  font-family: Alegreya Sans;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.propos {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  font-family: "Spectral SC", serif;
+}
+.info {
+  margin: 10px;
+  font-family: "Spectral SC", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tokiinfo {
+  font-family: "Spectral SC", serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.footer {
+  text-align: center;
+}
+/****************/
+.card-body {
+  text-align: center;
+}
+.page {
+  font-family: Alegreya Sans;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #2c3e50;
+  text-align: center;
+}
+.titre {
+  font-weight: bold;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.PRA {
+  font-family: Alegreya Sans;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #2c3e50;
+  text-align: center;
+}
+.cadre{
+  border: solid;
+  background-color:transparent;
+  width: 90%;
+  height: 30rem;
+  z-index: 1;
+  position: relative;
+  left: 150px;
+}
+.cat{
+  position: relative;
+  height: 30rem;
+  width: 90%;
+  top: 50px;
+
+}
+
+.cadre1{
+  border: solid;
+  background-color:transparent;
+  width: 90%;
+  height: 30rem;
+  position: relative;
+  z-index: 1;
+  
+}
+.cat1{
+  position: relative;
+  left: 150px;
+  height: 30rem;
+  width: 100%;
+  top: 50px;
+}
+.txtcat{
+  padding: 10%;
+  margin-top: 5%;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+font-weight:  italic;
+
+}
+.txtcat1{
+  padding: 10%;
+  margin-top: 20%;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+font-weight:  italic;
+
+}
+.t1{
+  text-align: center;
+  color: #2c3e50; 
+ font-family: 'Playfair Display', serif;
+ font-size: 50px;
+font-weight:  italic;
+
+}

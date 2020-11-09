@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<!---------------------------------------------begin navbar---------------------------------------------------------->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="aacueil.html"><img src="logo/logo.png" class="logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-muted" href="accueil.html">Accueil <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="actualité .html">Actualité</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-muted" href="nosbracelets.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        Nos Bracelets
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Homme.html">Bracelets Homme</a>
+                        <a class="dropdown-item" href="Femme.html">Bracelets Femme</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown text-muted" href="parmotif.html" id="navbarDropdown1" role="button"
+                        data-toggle="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        Par Motif
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Motif-lion.html"> Motif Lion</a>
+                        <a class="dropdown-item" href="Motif-boudha.html">Motif Boudha</a>
+                        <a class="dropdown-item" href="Motif-khomsa.html">Motif Khomsa</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown text-muted" href="parmatier.html" id="navbarDropdown2" role="button"
+                        data-toggle="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        Par Matiére
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Matier-mate.html"> Matiére Mate</a>
+                        <a class="dropdown-item" href="Matier-bois.html">Matiére Bois</a>
+                        <a class="dropdown-item" href="Matier-ceramique.html">Matiére Céramique</a>
+                        <a class="dropdown-item" href="Matier-volcanique.html">Matiére Volcanique</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="Personaliser.html">Personaliser Bracelets
+                    </a>
+                </li>
+            </ul>
+
+            <!-----------------------------------end navbar------------------------------>
+
+            <!-----------------------------------begin serach------------------------------>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">
+                    Search
+                </button>
+            </form>
+
+            <!-----------------------------------end serach------------------------------>
+
+            <!------------------------- begin connecter modal------------------->
+            <a href="#">
+                <ion-icon name="person-circle-sharp" data-toggle="modal" data-target="#exampleModal">
+                </ion-icon>
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#conecter"
+                                        role="tab" aria-controls="home" aria-selected="true">Connecter</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#inscrie" role="tab"
+                                        aria-controls="profile" aria-selected="false">Inscription</a>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="conecter" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput">
+                                                <h5>Adresse</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                                placeholder="Taper votre adresse mail" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">
+                                                <h5>Mot de passe</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                                placeholder="Taper votre mot de passe" />
+                                        </div>
+                                    </form>
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-primary mx-auto" style="width: 100%">
+                                            Connecter
+                                        </button>
+                                        <h1>Conneter avec :</h1>
+
+
+                                        <a href="#"><img
+                                                src="https://img.icons8.com/material/30/000000/facebook-circled.png" /></a>
+                                        <a href="#"><img
+                                                src="https://img.icons8.com/ios-filled/30/000000/linkedin-circled.png" /></a>
+                                        <a href="#"><img
+                                                src="https://img.icons8.com/material-sharp/30/000000/google-plus.png" /></a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="inscrie" role="tabpanel" aria-labelledby="profile-tab">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">
+                                                <h5>Nom et Prénom</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput3"
+                                                placeholder="Taper votre Nom et Prénom" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">
+                                                <h5>Adress Mail</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput5"
+                                                placeholder="Taper votre Adress Mail" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">
+                                                <h5>Mot de passe</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput4"
+                                                placeholder="Taper votre Mot de passe" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formGroupExampleInput2">
+                                                <h5>Confirmer</h5>
+                                            </label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput1"
+                                                placeholder="Confirmer Mot de passe" />
+                                        </div>
+                                    </form>
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-primary mx-auto" style="width: 100%">
+                                            Creé votre compt
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="panier.html">
+                <ion-icon name="cart"></ion-icon>
+            </a>
+        </div>
+    </nav>
+
+    <!--------------------------------end modal------------------------------------------------>
+</header>
+<!---------------------------------------------end navbar---------------------------------------------------------->
+
+<body>
+    <hr />
+    <div class="page py-3">
+        <h1 class="display-3"><span class="mark ">PAR MATIERE </span></h1>
+    </div>
+    <h3 class="t1 py-4">MATIERE MATE </h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-6">
+                <div class="cadre">
+                    <p class="txtcat">Nous ne disposons que d'une seconde pour voler à la vie les bracelets de lumière
+                        qui tintent à ses poignets.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-6">
+                <a href="Matier-mate.html"><img class="cat shadow p-3 mb-5 bg-white rounded"
+                        src="image/matiere/mate-bracelet.jpg"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <h3 class="t1 py-4">MATIERE BOIS </h3>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+                <a href="Matier-bois.html"><img class="cat1 shadow p-3 mb-5 bg-white rounded"
+                        src="image/matiere/bois-bracelet.jpg"></a>
+            </div>
+
+            <div class="col-md-6 col-6">
+                <div class="cadre1">
+                    <p class="txtcat">Tarpeïa leur vendit la place, pour l'envie qu'elle eut d'avoir les bracelets d'or
+                        qu'ilz portoient à l'entour de leurs bras. </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h3 class="t1 py-4">MATIERE CERAMIQUE </h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-6">
+                <div class="cadre">
+                    <p class="txtcat">Nous attendons du monde, tu mettras tes bijoux, tes bracelets. Quand on est riche,
+                        il faut le montrer.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-6">
+                <a href="Matier-ceramique.html"><img class="cat shadow p-3 mb-5 bg-white rounded"
+                        src="image/matiere/ceramique-bracelet.jpg"></a>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="t1 py-4">MATIERE VOLCANIQUE </h3>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+                <a href="Matier-volcanique.html"><img class="cat1 shadow p-3 mb-5 bg-white rounded"
+                        src="image/matiere/volcanique-bracelet.jpg"></a>
+            </div>
+
+            <div class="col-md-6 col-6">
+                <div class="cadre1">
+                    <p class="txtcat">C'était la première fois que je faisais un cadeau d'amoureux et dans chaque
+                        maillon du bracelet, il y avait un morceau de mon coeur. </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!----------------------------->
+    <br />
+
+    <div class="container1">
+        <div class="row">
+            <div class="col-sm">
+                <a href="index..html"><img src="logo/logo.png" class="logo2" /></a>
+                <p class="proptext">Information</p>
+                <p class="propos">
+                    Le bracelet pour homme et femme est un accessoire tendance qui prend
+                    de plus en plus d'importance dans le look masculin et féminin .
+                </p>
+            </div>
+            <div class="col-sm">
+                <br />
+                <div class="info">
+                    <a href="Blog.html">
+                        <p class="text-white">Blog</p>
+                    </a>
+                    <a href="Homme.html">
+                        <p class="text-white">Nos Bracelets</p>
+                    </a>
+                    <a href="Motif-lion.html">
+                        <p class="text-white">Par Motif</p>
+                    </a>
+                    <a href="Matiere-mate">
+                        <p class="text-white">Par Matiér</p>
+                    </a>
+                    <a href="Personaliser.html">
+                        <p class="text-white">Personaliser Bracelets</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="inofs">
+                    <br />
+                    <p class="tokiinfo">
+                        <img src="https://img.icons8.com/wired/20/000000/phone.png" />+216
+                        27668918
+                    </p>
+                    <p class="tokiinfo">
+                        <img src="https://img.icons8.com/ios-filled/20/000000/google-maps.png" />Tunis,tunis
+                    </p>
+                    <p class="tokiinfo">
+                        <img
+                            src="https://img.icons8.com/material-rounded/20/000000/important-mail.png" />ahmedkhaledali123@gmail.com
+                    </p>
+
+                    <br />
+                    <p>RESTER AU COURANT</p>
+                    <div class="input-group mb-3 w-60">
+                        <input type="text" class="form-control" placeholder="Adresse mail"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">s'inscrir</span>
+                        </div>
+                    </div>
+
+                    <p>Suivie Nous :</p>
+                    <img src="https://img.icons8.com/metro/50/000000/facebook.png" />
+                    <img src="https://img.icons8.com/windows/70/000000/instagram-new.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer">
+            <img src="https://img.icons8.com/material-outlined/24/000000/registered-trademark.png" />
+            AliAhmedkhaled2020
+        </p>
+    </footer>
+</body>
+
+</html>
