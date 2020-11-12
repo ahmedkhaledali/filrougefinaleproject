@@ -21,9 +21,10 @@ ion-icon {
  
  background-color: #8EC5FC; 
 background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
-
+font-family: 'Roboto', sans-serif;
 
 }
+
 /*begin dropdown*/
 .dropdown:hover > .dropdown-menu {
   display: block;
@@ -38,11 +39,11 @@ background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
 .caption {
   position: absolute;
   top: 10%;
-  right: 330px;
+  right: 360px;
   width: 100%;
   color: #ecf0f1;
   font-family: Dancing Script, cursive;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: bolder;
 }
 .caption1 {
@@ -109,7 +110,7 @@ background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
   font-weight: lighter;
 }
 .container1 {
-  background-color: #353b48;
+  background-color: #3c6382;
 }
 .logo2 {
   width: auto;
@@ -118,7 +119,6 @@ background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
 }
 .proptext {
   text-align: center;
-  font-family: Alegreya Sans;
   font-size: 30px;
   font-weight: bold;
   color: whitesmoke;
@@ -128,17 +128,22 @@ background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
   font-size: 15px;
   color: black;
   font-weight: bold;
-  font-family: "Spectral SC", serif;
+
+}
+.link{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 .info {
   margin: 10px;
-  font-family: "Spectral SC", serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
 .tokiinfo {
-  font-family: "Spectral SC", serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: whitesmoke;
 }
@@ -205,11 +210,11 @@ background-image: linear-gradient(62deg, #DFE7F2 0%,#D9D7D7 100%);
 .cadre{
   border: solid;
   background-color:transparent;
-  width: 90%;
-  height: 30rem;
+  width: 100%;
+  min-height: 30rem;
   z-index: 1;
   position: relative;
-  left: 150px;
+  left: 10%;
 }
 .cat{
   position: relative;
