@@ -110,7 +110,7 @@ font-family: 'Roboto', sans-serif;
   font-weight: lighter;
 }
 .container1 {
-  background-color: #3c6382;
+  background-color:#34393f;
 }
 .logo2 {
   width: auto;
@@ -126,9 +126,12 @@ font-family: 'Roboto', sans-serif;
 .propos {
   text-align: center;
   font-size: 15px;
-  color: black;
+  color:#fff;
   font-weight: bold;
 
+}
+.p1{
+  color:white;
 }
 .link{
   text-align: center;
@@ -144,7 +147,7 @@ font-family: 'Roboto', sans-serif;
 
 .tokiinfo {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  
   color: whitesmoke;
 }
 
